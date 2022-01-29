@@ -34,15 +34,15 @@ function carregar() {
 
     if (h >= 0 && h < 12) {
         document.getElementById("saudacao").innerHTML = "Tenha um ótimo dia!"
-        img.src = "Amanhecer.png"
+        img.src = "assests/Amanhecer.png"
         document.body.style.background = "#686d73"
     } else if (h >= 12 && h < 18) {
         document.getElementById("saudacao").innerHTML = "Tenha uma ótima tarde!"
-        img.src = "Entardecer.png"
+        img.src = "assests/Entardecer.png"
         document.body.style.background = "#b46d4f"
     } else {
         document.getElementById("saudacao").innerHTML = "Tenha uma ótima noite!"
-        img.src = "Anoitecer.png"
+        img.src = "assets/Anoitecer.png"
         document.body.style.background = "black"
     }
 }
