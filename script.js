@@ -31,8 +31,8 @@ function carregar() {
     s = checkTime(s)
     const time = setTimeout(carregar, 1000);
     document.getElementById("msg").innerHTML = "Agora são " + h + ":" + m + ":" + s
-    
-    if (h >= 0 && h < 12)  {
+
+    if (h >= 0 && h < 12) {
         document.getElementById("saudacao").innerHTML = "Tenha um ótimo dia!"
         img.src = "Amanhecer.png"
         document.body.style.background = "#686d73"
@@ -40,14 +40,13 @@ function carregar() {
         document.getElementById("saudacao").innerHTML = "Tenha uma ótima tarde!"
         img.src = "Entardecer.png"
         document.body.style.background = "#b46d4f"
-    } else  {
+    } else {
         document.getElementById("saudacao").innerHTML = "Tenha uma ótima noite!"
         img.src = "Anoitecer.png"
         document.body.style.background = "black"
     }
 }
-  function checkTime(i) {
-    if (i < 10) {i = `0${i}`};
+function checkTime(i) {
+    if (i < 10) { i = `0${i}` };
     return i;
-  }
-
+}
