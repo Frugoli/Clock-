@@ -1,27 +1,3 @@
-
-/*function carregar ()    {
-    const msg = document.getElementById("msg")
-    const img = document.getElementById("img")
-    const data = new Date()
-    const hora = data.getHours()
-    
-    msg.innerHTML = `Agora são ${hora} horas.`
-    if(hora >= 0 && hora < 12)  {
-        saudacao.innerHTML = "Tenha um ótimo dia!"
-        img.src = "Amanhecer.png"
-        document.body.style.background = "#686d73"
-    } else if (hora >= 12 && hora < 18) {
-        saudacao.innerHTML = "Tenha uma ótima tarde!"
-        img.src = "Entardecer.png"
-        document.body.style.background = "#b46d4f"
-    } else  {
-        saudacao.innerHTML = "Tenha uma ótima noite!"
-        img.src = "Anoitecer.png"
-        document.body.style.background = "black"
-    }
-}
-*/
-
 function carregar() {
     const horas = new Date()
     let h = horas.getHours()
